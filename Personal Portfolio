@@ -1,0 +1,56 @@
+<!-- html css portfolio -->
+<!-- by John Derick Gaviola -->
+<!DOCTYPE html>
+<html>
+<!-- header -->
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Who am I? </title> 
+    </head>
+<link rel="stylesheet" href="style.css">
+<!-- body -->
+<body>
+<!-- navbar -->
+    <div class="navbar">
+        <a href="#" class="logo">Who am I</a>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </div>
+<!-- banner -->
+    <div class="banner-area" id="home">        
+        <div class="text-part"></div>
+        <p>This is my first try of making my resume as 1st year student.</p>
+        </div>
+    <div class="about-area" id="about">
+        <div class="text-part"></div>
+            <h1>About Me</h1>
+            <p>I'm John Derick E. Gaviola</p>
+        </div>
+    </div>
+    <div class="portfolio-area" id="portfolio">
+        <div class="text-part"></div>
+            <h1>Portfolio</h1>
+            <p>I'm good at ???</p>
+        </div>
+    </div>
+    <div class="contacts-area" id="contacts">
+        <div class="text-part"></div>
+            <h1>Contacts</h1>
+            <p>09708447386 save muh txtm8 tau ^_^</p>
+        </div>
+    </div>
+    <!-- watermark -->
+<div class="watermark">
+    <h6>
+    &copy; John Derick Gaviola<br>
+    all rights reserved 2024
+    </h6>
+</div>
+<!-- javascript -->
+ <script src="script.js"></script>
+</body>
+</html>
